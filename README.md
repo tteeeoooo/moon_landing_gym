@@ -2,15 +2,15 @@
 
 this project trains the agent to land a lunar module autonomously suing reinforcement learning. the agent learns in a simulated 2d landing environment using the gymnasium api. the goal is to land the module smoothly on a designated landing pad while minimizing fuel consumption and avoiding crashes. 
 
-# key features
-• uses deep q-networks for learning
-• provides real-time rendering of landings
-• saves & loads trained models for evaluation
-• generates video recordings of landings at the end
+# key features  
+• uses deep q-networks for learning  
+• provides real-time rendering of landings  
+• saves & loads trained models for evaluation  
+• generates video recordings of landings at the end  
 
 
-# state space
-state consists of 8 continuous values:
+# state space  
+state consists of 8 continuous values:  
 1. x (horizontal position)
 2. y (vertical position)
 3. vx (horizontal velocity)
